@@ -19,6 +19,9 @@ pulumi stack init stg
 
 pulumi stack ls
 
+pulumi config set gcp:project jobrapido-sandbox
+pulumi config set gcp:region europe-west1
+
 case $BUILD_TYPE in
   PullRequest)
       pulumi preview
