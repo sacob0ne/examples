@@ -4,6 +4,7 @@ steps:
   args:
   - '-c'
   - 'chmod +x *.sh && ./pulumi.sh'
+  dir: gcp-ts-functions
   env:
   # We use substitution for an example. Your Pulumi access token is sensitive and as such should be encrypted.
   # See the Encrypted Variables section below on how to do that.
