@@ -15,7 +15,7 @@ yarn install
 pulumi login
 
 # Select the appropriate stack.
-pulumi stack init stg
+pulumi stack init stg || true
 
 pulumi stack ls
 
