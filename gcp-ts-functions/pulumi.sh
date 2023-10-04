@@ -19,6 +19,8 @@ pulumi stack init stg || true
 
 pulumi stack ls
 
+pulumi stack select stg
+
 pulumi config set gcp:project jobrapido-sandbox
 pulumi config set gcp:region europe-west1
 
